@@ -1,0 +1,75 @@
+*{ 
+    margin: 0; 
+    padding: 0; box-sizing: 
+    border-box; font-family: 'Lato', sans-serif; 
+}
+
+section.page{ 
+    width: 21cm; 
+    height: 29.7cm; 
+    overflow: hidden; 
+    background-color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside {
+    width: 30%;
+    background-color: #5858f7;
+}
+
+.aside h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+.aside p {
+    text-align: right;
+    margin: 0.3cm 0.5cm;
+    color: white;
+}
+
+h1 {
+    font-size: 0.8cm;
+    margin: 1.5cm 0 0.8cm 0.5cm;
+    color: #5858f7;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0.5cm 0.8cm;
+}
+
+li {
+    margin: 0.05cm 0.2cm;
+}
+
+.divisoria img { 
+    padding: 0 0.3cm;
+    position: relative;
+    background-color: white;
+}
+
+.line {
+    width: 60%;
+    border-bottom: 2px solid #5858f7;
+    position: relative;
+    bottom: 0.4cm;
+}
+
+.dados {
+    margin: 0.2cm 0.8cm;
+}
+
+.dados p {
+    margin: 0.1cm 0.2cm;
+}
